@@ -39,7 +39,7 @@ public class Cat {
 		// Draw the mouth
 		g2.setColor(Color.pink);
 		x = catX + MOUTH_Y;
-		y = catY + MOUTH_Y;
+		y = catY + MOUTH_X;
 		g2.fillOval(x, y, MOUTH_WIDTH, MOUTH_HEIGHT);
 		g2.setColor(Color.black);
 		// Meow text appears below cat head, +10 places below 
